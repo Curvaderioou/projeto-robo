@@ -1,0 +1,129 @@
+/*Estilo para tablet*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  .container {
+    width: 768px;
+  }
+
+  /*intro*/
+
+  .intro h1 {
+    font-size: 32px;
+    max-width: 350px;
+  }
+
+  /*intro formulario*/
+
+  .caixa_form {
+    margin-left: 40px;
+    width: 390px;
+    height: 300px;
+    padding-top: 30px;
+  }
+
+  /*Formulario*/
+
+  .e-mail {
+    width: 300px;
+  }
+  .quantidade {
+    width: 130px;
+  }
+
+  .modelo {
+    width: 130px;
+  }
+  /*Produtos*/
+
+  .bg-produtos {
+    width: 120px;
+    height: 220px;
+  }
+
+  .bg-produtos img {
+    padding-top: 10px;
+    width: 110px;
+  }
+}
+
+/*Estilo para mobile*/
+@media only screen and (max-width: 788px) {
+  .container {
+    width: 300px;
+  }
+
+  /*Header*/
+
+  .header a {
+    display: block;
+    margin-left: 76px;
+  }
+
+  .header ul {
+    text-align: center;
+    margin-top: 16px;
+  }
+  .header ul li {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-right: 98px;
+  }
+
+  .header ul li a:hover {
+    font-size: 24px;
+  }
+
+  /*Intro*/
+
+  .intro h1 {
+    font-size: 24px;
+    max-width: 300px;
+    line-height: 36px;
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  .caixa_form {
+    width: 300px;
+    height: 330px;
+    margin-left: 0px;
+    margin-top: 100px;
+  }
+
+  .e-mail {
+    width: 210px;
+  }
+
+  .quantidade {
+    width: 85px;
+  }
+
+  .modelo {
+    width: 85px;
+  }
+
+  .form label:nth-last-of-type(1) {
+    margin-left: 25px;
+  }
+
+  .caixa_form input {
+    font-size: 14px;
+  }
+
+  .form button {
+    margin-top: 30px;
+    margin-left: 65px;
+  }
+
+  /*Modelos*/
+
+  .bg-modelos h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .bg-produtos {
+    width: 200px;
+    margin: 20px auto;
+  }
+}

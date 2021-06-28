@@ -1,0 +1,54 @@
+/*Responsivo Tablet*/
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  .container {
+    width: 768px;
+  }
+
+  /*Main*/
+  .feature {
+    max-width: 200px;
+  }
+}
+
+/*Responsivo Mobile*/
+
+@media only screen and (max-width: 788px) {
+  .container {
+    width: 300px;
+  }
+
+  /*Menu*/
+
+  .logo img {
+    margin: auto;
+    margin-top: 32px;
+  }
+
+  .menu {
+    text-align: center;
+  }
+
+  .menu li a {
+    margin-left: 0px;
+    margin: 0 16px;
+  }
+
+  .menu li a::after {
+    visibility: hidden;
+  }
+
+  /*Intro*/
+  .bg-intro {
+    margin-top: 145px;
+  }
+
+  .intro h1 {
+    line-height: 100%;
+    margin-top: 138px;
+  }
+
+  .intro p {
+    line-height: 100%;
+  }
+}

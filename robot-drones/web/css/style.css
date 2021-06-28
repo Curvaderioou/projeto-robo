@@ -1,0 +1,140 @@
+img {
+  display: block;
+}
+
+/*Header*/
+
+.bg-header {
+  background: linear-gradient(91.77deg, #5d35b5 0%, #c067d1 98.9%);
+  top: 0;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu {
+  font-size: 18px;
+  font-family: Roboto mono;
+  color: white;
+  text-align: right;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.menu li a {
+  margin-left: 32px;
+}
+
+.menu a:visited,
+.menu a:link {
+  color: white;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.logo img {
+  margin: 32px 0;
+}
+
+.menu li a::after {
+  content: "";
+  display: block;
+  height: 16px;
+  width: 1px;
+  background: #703ebb;
+  position: relative;
+  left: 15px;
+  bottom: 15px;
+}
+
+/*Intro*/
+
+.bg-intro {
+  background: url(../img/bg.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.intro h1 {
+  font-family: roboto;
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 128px;
+  line-height: 75%;
+}
+
+.intro p {
+  font-family: Roboto Mono;
+  font-size: 18px;
+  font-weight: medium;
+  color: white;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  line-height: 75%;
+}
+
+.intro button {
+  font-family: roboto mono;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  background: #c167d1;
+  display: block;
+  margin: 0 auto;
+  padding: 16px;
+  border: none;
+  border-radius: 5px;
+  line-height: 75%;
+  cursor: pointer;
+  margin-bottom: 128px;
+}
+
+.intro button:hover {
+  background: #703ebb;
+}
+
+/*Main*/
+
+.bg-main h2 {
+  font-size: 48px;
+  font-family: roboto;
+  font-weight: bold;
+  color: #703ebb;
+  text-align: center;
+  line-height: 75%;
+  margin: 64px;
+}
+
+.main li img {
+  margin: 0 auto;
+}
+
+.subtitle {
+  font-family: roboto;
+  font-size: 18px;
+  color: #703ebb;
+  line-height: 75%;
+  text-align: center;
+  margin: 16px;
+}
+
+.feature {
+  max-width: 265px;
+  font-family: roboto mono;
+  font-size: 14px;
+  color: black;
+  margin: 0 auto 64px;
+  text-align: center;
+}
